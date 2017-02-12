@@ -21,7 +21,10 @@ namespace ArquivosVinculados
                     Children = {
                         new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Bem vindo ao Xamarin Forms!"
+                            #if WINDOWS_UWP
+                                Text = "Bem vindo ao Windows UWP Xamarin Forms!"
+                            #endif
+                            
                         }
                     }
                 }

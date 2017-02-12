@@ -26,6 +26,7 @@ namespace ArquivosVinculados.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ArquivosVinculados.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
