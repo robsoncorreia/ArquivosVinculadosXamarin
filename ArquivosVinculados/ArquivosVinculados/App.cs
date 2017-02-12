@@ -23,6 +23,8 @@ namespace ArquivosVinculados
                             HorizontalTextAlignment = TextAlignment.Center,
                             #if WINDOWS_UWP
                                 Text = "Bem vindo ao Windows UWP Xamarin Forms!"
+                            #elif __ANDROID__
+                                Text = "Bem vindo ao Android Xamarin Forms!"
                             #endif
                             
                         }
